@@ -14,7 +14,7 @@ app.post('/me', (req, res)=>{
   
 app.listen(80, (error) => {
     if(!error)
-        console.log("Server started Successfully"); 
+        consol.log("Server started Successfully"); 
     else 
         console.log("Server failed to start:", error);
     }
