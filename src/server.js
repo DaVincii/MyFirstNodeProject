@@ -12,7 +12,7 @@ app.post('/me', (req, res)=>{
     res.send('Hello ' + body.name);
 });
   
-app.listen(80, (error) => {
+app.listen(3000, (error) => {
     if(!error)
         console.log("Server started Successfully222222"); 
     else 
